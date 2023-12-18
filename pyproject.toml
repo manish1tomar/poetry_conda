@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "poetry-conda"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "poetry_conda"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sentence-transformers = "^2.2.2"
+pandas = "^2.1.4"
+faiss-cpu = "^1.7.4"
+langchain = "^0.0.350"
+streamlit = "^1.29.0"
+openai = "^1.5.0"
+unstructured = "^0.11.5"
+python-magic-bin = "^0.4.14"
+tiktoken = "^0.5.2"
+python-dotenv = "^1.0.0"
+dill = "^0.3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
